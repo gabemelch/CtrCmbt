@@ -1,0 +1,26 @@
+<h2>Would you like to upload your win/loss record?</h2>
+<form action="/userConnect" method="POST">
+    <div>
+        <input type="hidden" name="update" value="true">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <div>
+            <label for="wins">Wins</label>
+            <input type="wins" id="wins" name="wins" required>
+          </div>
+          <div>
+            <label for="losses">Losses</label>
+            <input type="losses" id="losses" name="losses" required>
+          </div>
+          <button type="submit">Update</button>
+</form>

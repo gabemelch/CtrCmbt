@@ -73,17 +73,52 @@ app.post('/register', checkNotAuthenticated, async (req, res) => {
       id: Date.now().toString(),
       name: req.body.name,
       email: req.body.email,
-      password: hashedPassword
+      password: hashedPassword,
+      wins: req.body.wins,
+      losses: req.body.losses
     })
-    const user = new User({
+    /*const user = new User({
       name: req.body.name,
       email: req.body.email,
       password: hashedPassword
     })
-    const newUser = await user.save()
+    const newUser = await user.save()*/
     res.redirect('/login')
   } catch {
     res.redirect('/register')
+  }
+})
+
+app.get('/userConnect', checkAuthenticated, (req, res) => {
+  res.render('userConnect')
+})
+
+app.post('/userConnect', async (req, res) => {
+  try {
+    if (req.body.update) {
+      const hashedPassword = await bcrypt.hash(req.body.password, 10)
+    const user = new User({
+      name: req.body.name,
+      email: req.body.email,
+      password: hashedPassword,
+      wins: req.body.wins || 1,
+      losses: req.body.losses || 1
+    })
+    const result = await User.findOneAndUpdate(
+      { name: user.name, email: user.email },
+      { $inc: { wins: user.wins, losses: user.losses }},
+      { new: true }
+    )
+    if(Boolean(result)) {
+      console.log('Wins and losses updated', result)
+    } else {
+      const newUser = await user.save()
+    }
+    }
+    res.redirect('/')
+  } catch (err) {
+    console.log(err)
+    res.redirect('/userConnect')
   }
 })
 
