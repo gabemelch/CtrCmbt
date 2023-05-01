@@ -23,7 +23,8 @@
     "mongoose": "^7.1.0",
     "node": "^19.8.1",
     "passport": "^0.6.0",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "prompt-sync": "^4.2.0"
   },
   "devDependencies": {
     "dotenv": "^16.0.3",
