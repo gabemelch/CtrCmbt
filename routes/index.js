@@ -1,8 +1,23 @@
-const express = require('express')
+/*const express = require('express')
 const router = express.Router()
 
-router.get('/', (req, res)=> {
-    res.render('index')
+app.get('/', (req, res)=> {
+    res.render('index', { name: req.user.name })
 })
 
-module.exports = router
+function checkAuthenticated(req, res, next) {
+    if (req.isAuthenticated()) {
+      return next()
+    }
+  
+    res.redirect('/login')
+  }
+  
+  function checkNotAuthenticated(req, res, next) {
+    if (req.isAuthenticated()) {
+      return res.redirect('/')
+    }
+    next()
+  }
+
+module.exports = router*/
