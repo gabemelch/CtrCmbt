@@ -2,6 +2,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e3594"
   },
+  "sprite": "data:koala.svg" ,
   "name": "Koala",
   "hp": 250,
   "atk1": {
@@ -28,6 +29,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e358f"
   },
+  "sprite":"data:rat.svg",
   "name": "Rat",
   "hp": 230,
   "atk1": {
@@ -54,6 +56,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e3588"
   },
+  "sprite":"data:dragon.svg",
   "name": "Dragon",
   "hp": 300,
   "atk1": {
@@ -80,6 +83,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e358b"
   },
+  "sprite":"data:scorpion.svg",
   "name": "Scorpion",
   "hp": 230,
   "atk1": {
@@ -106,6 +110,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e3591"
   },
+  "sprite":"data:deer.svg",
   "name": "Deer",
   "hp": 240,
   "atk1": {
@@ -132,6 +137,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e3590"
   },
+  "sprite":"data:pig.svg",
   "name": "Pig",
   "hp": 280,
   "atk1": {
@@ -158,6 +164,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e358a"
   },
+  "sprite":"data:donkey.svg",
   "name": "Donkey",
   "hp": 275,
   "atk1": {
@@ -184,6 +191,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e359f"
   },
+  "sprite":"data:lion.png",
   "name": "Lion",
   "hp": 312,
   "atk1": {
@@ -210,6 +218,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e3593"
   },
+  "sprite":"data:gorilla.svg",
   "name": "Gorilla",
   "hp": 320,
   "atk1": {
@@ -236,6 +245,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e358d"
   },
+  "sprite":"data:t-rex.svg",
   "name": "T-Rex",
   "hp": 300,
   "atk1": {
@@ -262,6 +272,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e3587"
   },
+  "sprite":"data:jellyfish.svg",
   "name": "Jellyfish",
   "hp": 225,
   "atk1": {
@@ -288,6 +299,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e3586"
   },
+  "sprite":"data:sloth.svg",
   "name": "Sloth",
   "hp": 250,
   "atk1": {
@@ -314,6 +326,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e3599"
   },
+  "sprite":"data:ostritch.png",
   "name": "Ostritch",
   "hp": 290,
   "atk1": {
@@ -340,6 +353,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e3597"
   },
+  "sprite":"data:black-bird.svg",
   "name": "Black Bird",
   "hp": 245,
   "atk1": {
@@ -366,6 +380,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e3598"
   },
+  "sprite":"data:eagle.svg",
   "name": "Eagle",
   "hp": 275,
   "atk1": {
@@ -392,6 +407,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e359b"
   },
+  "sprite":"data:shark.svg",
   "name": "Shark",
   "hp": 300,
   "atk1": {
@@ -418,6 +434,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e359d"
   },
+  "sprite":"data:tiger.svg",
   "name": "Tiger",
   "hp": 320,
   "atk1": {
@@ -444,6 +461,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e359a"
   },
+  "sprite":"data:octopus.svg",
   "name": "Octopus",
   "hp": 260,
   "atk1": {
@@ -470,6 +488,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e35a3"
   },
+  "sprite":"data:dodo.svg",
   "name": "Dodo",
   "hp": 265,
   "atk1": {
@@ -496,6 +515,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e35a4"
   },
+  "sprite":"data:mammoth.svg",
   "name": "Mammoth",
   "hp": 320,
   "atk1": {
@@ -522,6 +542,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e359c"
   },
+  "sprite":"data:kangaroo.svg",
   "name": "Kangaroo",
   "hp": 290,
   "atk1": {
@@ -548,6 +569,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e358e"
   },
+  "sprite":"data:unicorn.png",
   "name": "Unicorn",
   "hp": 275,
   "atk1": {
@@ -574,6 +596,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e35a0"
   },
+  "sprite":"data:snail.svg",
   "name": "Snail",
   "hp": 230,
   "atk1": {
@@ -600,6 +623,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e35a5"
   },
+  "sprite":"data:person-walking.svg",
   "name": "Human",
   "hp": 300,
   "atk1": {
@@ -626,6 +650,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e3595"
   },
+  "sprite":"data:snake.svg",
   "name": "Snake",
   "hp": 230,
   "atk1": {
@@ -652,6 +677,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e35a2"
   },
+  "sprite":"data:Tree_Frog.png",
   "name": "Tree Frog",
   "hp": 231,
   "atk1": {
@@ -678,6 +704,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e3596"
   },
+  "sprite":"data:goose.svg",
   "name": "Goose",
   "hp": 240,
   "atk1": {
@@ -704,6 +731,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e3589"
   },
+  "sprite":"data:monkey.svg",
   "name": "Monkey",
   "hp": 250,
   "atk1": {
@@ -730,6 +758,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e358c"
   },
+  "sprite":"data:5065_chameleon.png",
   "name": "Chameleon",
   "hp": 265,
   "atk1": {
@@ -756,6 +785,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e3592"
   },
+  "sprite":"data:dog.svg",
   "name": "Dog",
   "hp": 280,
   "atk1": {
@@ -782,6 +812,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e359e"
   },
+  "sprite":"data:panda.png",
   "name": "Panda",
   "hp": 400,
   "atk1": {
@@ -808,6 +839,7 @@
   "_id": {
     "$oid": "644a1252e16ce495149e35a1"
   },
+  "sprite":"data:black-cat.svg",
   "name": "Cat",
   "hp": 250,
   "atk1": {
